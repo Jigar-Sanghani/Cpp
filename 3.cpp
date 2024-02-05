@@ -8,11 +8,11 @@ int main()
 	cout<<"Enter The Number : ";
 	cin>>n;
 	
-	cout<<"\n----------Table Of ----------"<<n;
+	cout<<"\n----------Table Of "<<n<<" ----------"<<endl;
 	
 	for(i=0;i<=10;i++)
 	{
-		cout<<n<<" * "<<i <<" = "<<(n*i);
+		cout<<n<<" * "<<i <<" = "<<(n*i)<<endl;
 	}
 	return 0;
 	

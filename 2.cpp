@@ -9,7 +9,11 @@ int main()
 	cout<<"Enter The B :";
 	cin>>b;
 	
-	cout<<"A + B :"<<a+b;
+	cout<<endl;
+	cout<<"A + B :"<<a+b<<endl;
+	cout<<"A - B :"<<a-b<<endl;
+	cout<<"A * B :"<<a*b<<endl;
+	cout<<"A / B :"<<a/b<<endl;
 	
 	return 0;
 	
