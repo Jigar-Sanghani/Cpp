@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	int choice;
+	int choice,qty;
+	
 	cout<<endl<<"----- Enter Your Choice -----"<<endl;
 	cout<<endl<<"1. Dhosa";
 	cout<<endl<<"2. Pizza";
@@ -53,9 +54,9 @@ int main()
 			cout<<"01.  Margherita Pizza   -20$"<<endl;
 			cout<<"02.  Cheese-Bust Pizza  -30$"<<endl;
 			cout<<"03.  Masala Pizza       -34$"<<endl;
-			cout<<endl<<"Enter Your Choice :";
+			cout<<"Enter Your Choice :";
 			cin>>choice;
-			
+
 			switch(choice)
 			{
 				case 1:
@@ -117,7 +118,7 @@ int main()
 			cout<<"03.  Strawberry Ice-Cream  -30$"<<endl;
 			cout<<endl<<"Enter Your Choice :";
 			cin>>choice;
-			
+
 			switch(choice)
 			{
 				case 1:
@@ -139,5 +140,5 @@ int main()
 				break;
 			}
 		break;
-	}
+	}	
 }
